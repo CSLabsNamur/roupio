@@ -8,9 +8,9 @@ Python 3.8 supported.
 
 ```shell script
 pip install -r requirements.txt
-python manager.py makemigrations
-python manager.py migrate
-python manager.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
 ```
 
 ### Frontend
