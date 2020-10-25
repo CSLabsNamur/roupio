@@ -26,7 +26,18 @@ SECRET_KEY = '_4xf7bbd=0d)#)wktqwm-2qmajsr#d$22-_*9s^l$kpvs8_^vg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+]
+
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:8000",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:8000",
+    "https://api.store.brocanton.be",
+    "https://store.brocanton.be",
+]
 
 
 # Application definition
